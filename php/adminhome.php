@@ -13,19 +13,23 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin page</title>
+    <link rel="stylesheet" href="../css/adminhome.css">
 </head>
 
 <body>
-    <h1>Admin</h1>
-    <a href="logout.php">Logout</a>
-    <a href="signup.php">Add new user</a>
+    <?php
+    include 'admin_sidebar.php';
+    ?>
+    
+
+    <script src="../js/responsive_menu.js"></script>
 </body>
 
 </html>

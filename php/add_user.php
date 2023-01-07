@@ -5,7 +5,7 @@ $user="root";
 
 $password="";
 
-$db="login";
+$db="school";
 
 $conn=mysqli_connect($host,$user,$password,$db);
 

@@ -10,7 +10,7 @@ $user="root";
 
 $password="";
 
-$db="login";
+$db="school";
 
 
 $conn=mysqli_connect($host,$user,$password,$db);
@@ -28,13 +28,13 @@ if($conn===false)
 
 		$pass = $_POST['password'];
 
-
+		
 		$sql="select * from user where email='".$email."' AND password='".$pass."'  ";
-
+		
 		$result=mysqli_query($conn,$sql);
-
+		
 		$row=mysqli_fetch_array($result);
-
+	
 
 
 		if($row["usertype"]=="student")

@@ -24,18 +24,18 @@
                     <img src="../img/close.svg" alt="close button">
                 </a>
             </div>
-            <h2 class='welcome-title'>Welcome back</h2>
-            <p class="welcome-txt">Welcome back! Please enter your details.</p>
+            <h2 class='welcome-title'>Witaj ponownie!</h2>
+            <p class="welcome-txt">Wprowadź dane logowania</p>
             <form action="login_check.php" method="POST" class='sign-in-form'>
                 <label for=" email">
-                    <input type="email" name="email" placeholder="Enter your email" onfocus="this.placeholder = ''"
-                        onblur="this.placeholder = 'Enter your email'" />
+                    <input type="email" name="email" placeholder="Wprowadź adres email" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Wprowadź adres email'" />
                 </label>
                 <label for="password">
-                    <input type="password" name="password" placeholder="Enter your password"
-                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your password'" />
+                    <input type="password" name="password" placeholder="Wprowadź hasło"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Wprowadź hasło'" />
                 </label>
-                <button class='sign-in-btn' type="submit" name="submit">Sign in</button>
+                <button class='sign-in-btn' type="submit" name="submit">Zaloguj</button>
             </form>
         </div>
     </section>
